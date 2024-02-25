@@ -1,7 +1,7 @@
 global:
   scrape_interval: 15s
   # Set the listen_address to 0.0.0.0 to listen on all network interfaces
-  listen_address: 0.0.0.0
+  #listen_address: 0.0.0.0
 
 scrape_configs:
   - job_name: 'node'
