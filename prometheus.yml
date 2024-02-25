@@ -7,4 +7,4 @@ scrape_configs:
   - job_name: 'node'
     static_configs:
       # Adjust the target to the IP address of the host machine
-      - targets: ['localhost:9100']
+      - targets: ['130.61.185.185:9100']
